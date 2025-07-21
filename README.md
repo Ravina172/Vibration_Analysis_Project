@@ -19,11 +19,11 @@ vehicle_vibration_analysis/
 └── README.md  
 
 ## 📊 Sample Output
-## Time Domain Plot
+- Time Domain Plot
 Shows how the vibration amplitude changes over time.
 
 
-### Frequency Domain (FFT) Plot
+- Frequency Domain (FFT) Plot
 Shows dominant frequencies — peaks represent potential resonance frequencies like 50 Hz (frame) or 150 Hz (engine).
 
 ## 📦 Tools & Libraries
