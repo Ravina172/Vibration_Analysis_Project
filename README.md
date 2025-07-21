@@ -10,7 +10,7 @@ This project simulates and analyzes vibration data from a two-wheeler chassis us
 
 - Save plots for time and frequency domains for use in reports or presentations.
 
-# 📁 Project Structure
+## 📁 Project Structure
 vehicle_vibration_analysis/
 ├── bike_vibration_data.csv          # Simulated vibration signal (Amplitude only)
 ├── vibration_analysis.py            # Python script to run FFT and generate plots
@@ -18,22 +18,22 @@ vehicle_vibration_analysis/
 ├── vibration_fft_plot.png           # Frequency-domain visualization
 └── README.md  
 
-# 📊 Sample Output
+## 📊 Sample Output
 ## Time Domain Plot
 Shows how the vibration amplitude changes over time.
 
 
-## Frequency Domain (FFT) Plot
+### Frequency Domain (FFT) Plot
 Shows dominant frequencies — peaks represent potential resonance frequencies like 50 Hz (frame) or 150 Hz (engine).
 
-# 📦 Tools & Libraries
+## 📦 Tools & Libraries
 - Python 3.x
 - numpy
 - pandas
 - matplotlib
 - scipy.fft
 
-# 🧠 Engineering Context
+## 🧠 Engineering Context
 - This simulation reflects what NVH engineers do in ride quality testing.
 - Identifying dominant vibration frequencies helps in:
 
@@ -41,12 +41,12 @@ Shows dominant frequencies — peaks represent potential resonance frequencies l
   - Damping design
   - Reducing fatigue and improving comfort
 
-# ✅ Future Improvements (if time allows)
+## ✅ Future Improvements (if time allows)
 - Integrate with actual sensor data from accelerometers
 - Build a GUI using tkinter
 - Real-time vibration monitoring using Raspberry Pi or Arduino
 
-# 🤝 Connect
+## 🤝 Connect
 I'm always up for connecting with fellow data lovers, mentors, and potential collaborators! 
 
 <p align="left">
